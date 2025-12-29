@@ -22,8 +22,10 @@ Minimalist Chat BI Tool. Upload Excel, Ask Questions, Get Insights.
    cd backend
    pip install -r requirements.txt
    ```
-3. Run server:
+3. Run server (with API Key):
    ```bash
+   # Replace with your actual Ark API Key
+   export ARK_API_KEY="your_api_key_here"
    uvicorn app.main:app --reload
    ```
 
